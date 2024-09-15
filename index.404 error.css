@@ -1,0 +1,45 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f77c86, #f58585);
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 120px;
+    margin: 0;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+
+a:hover {
+    color: #ffddc1;
+    border-bottom: 1px solid #ffddc1;
+}
+
+.error-message {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
